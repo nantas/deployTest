@@ -1,0 +1,12 @@
+{
+  "__type__": "Fire.Texture",
+  "_name": "figure1-move",
+  "_objFlags": 0,
+  "_rawFiles": [
+    "figure1-move.png"
+  ],
+  "width": 500,
+  "height": 628,
+  "wrapMode": 1,
+  "filterMode": 1
+}

@@ -1,0 +1,12 @@
+{
+  "__type__": "Fire.Texture",
+  "_name": "background2",
+  "_objFlags": 0,
+  "_rawFiles": [
+    "background2.jpg"
+  ],
+  "width": 720,
+  "height": 480,
+  "wrapMode": 1,
+  "filterMode": 1
+}
