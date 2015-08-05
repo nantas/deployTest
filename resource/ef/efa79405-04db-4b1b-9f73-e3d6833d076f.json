@@ -10,290 +10,260 @@
   },
   {
     "__type__": "Runtime.SceneWrapper",
-    "content": [
-      {
-        "c": [
-          {
-            "w": {
-              "__id__": 1
+    "content": {
+      "c": [
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "game",
+            "_objFlags": 0,
+            "_position": [
+              320,
+              240
+            ],
+            "_scale": [
+              1,
+              1
+            ],
+            "_rotation": 0,
+            "_size": [
+              720,
+              480
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_texture": {
+              "__uuid__": "7313f093-20d5-456a-9875-f9e411ff4796"
+            }
+          },
+          "t": {
+            "nextRoom": "reception2",
+            "figureTex1": {
+              "__uuid__": "0a4c4684-0ad7-4624-befd-18137b8658ce"
             },
-            "t": {
-              "nextRoom": "reception2",
-              "figureTex1": {
-                "__uuid__": "0a4c4684-0ad7-4624-befd-18137b8658ce"
-              },
-              "figureTex2": {
-                "__uuid__": "6ddf3ea3-0166-4530-b2e4-efca4c0c0f9a"
-              },
-              "text1": "欢迎光临，我将为您提供支持与服务",
-              "text2": "点击右上角按钮选择业务房间",
-              "text3": "带您进入业务房间",
-              "text4": "前往业务房间"
+            "figureTex2": {
+              "__uuid__": "6ddf3ea3-0166-4530-b2e4-efca4c0c0f9a"
             },
-            "m": "ad796ch2mNLp43ZKnKojj64"
+            "text1": "欢迎光临，我将为您提供支持与服务",
+            "text2": "点击右上角按钮选择业务房间",
+            "text3": "带您进入业务房间",
+            "text4": "前往业务房间"
           },
-          {
-            "w": {
-              "__id__": 2
-            }
-          },
-          {
-            "w": {
-              "__id__": 3
-            }
-          },
-          {
-            "w": {
-              "__id__": 4
-            }
-          },
-          {
-            "w": {
-              "__id__": 5
-            }
-          },
-          {
-            "w": {
-              "__id__": 6
-            }
-          },
-          {
-            "w": {
-              "__id__": 7
+          "m": "ad796ch2mNLp43ZKnKojj64"
+        },
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "figure1",
+            "_objFlags": 0,
+            "_position": [
+              151.25,
+              0
+            ],
+            "_scale": [
+              0.6,
+              0.6
+            ],
+            "_rotation": 0,
+            "_size": [
+              500,
+              628
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0
+            ],
+            "_texture": {
+              "__uuid__": "0a4c4684-0ad7-4624-befd-18137b8658ce"
             }
           }
-        ],
-        "uuid": "efa79405-04db-4b1b-9f73-e3d6833d076f"
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "game",
-        "_objFlags": 0,
-        "_id": "416dcEMzF9Dbo1I7OqfLcqX",
-        "_position": [
-          320,
-          240
-        ],
-        "_scale": [
-          1,
-          1
-        ],
-        "_rotation": 0,
-        "_size": [
-          720,
-          480
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_texture": {
-          "__uuid__": "7313f093-20d5-456a-9875-f9e411ff4796"
-        }
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "figure1",
-        "_objFlags": 0,
-        "_id": "004f621vIBI7Ky5OWsqMJXp",
-        "_position": [
-          151.25,
-          0
-        ],
-        "_scale": [
-          0.6,
-          0.6
-        ],
-        "_rotation": 0,
-        "_size": [
-          500,
-          628
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0
-        ],
-        "_texture": {
-          "__uuid__": "0a4c4684-0ad7-4624-befd-18137b8658ce"
-        }
-      },
-      {
-        "__type__": "Runtime.ButtonWrapper",
-        "_name": "btn1",
-        "_objFlags": 0,
-        "_id": "f7c98U5euFJVbeM8XiAQA31",
-        "_position": [
-          535.625,
-          423.75
-        ],
-        "_scale": [
-          0.4,
-          0.4
-        ],
-        "_rotation": 0,
-        "_size": [
-          442,
-          141
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_normalTexture": {
-          "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
         },
-        "_text": "进入业务房间",
-        "_fontSize": 64,
-        "_font": null,
-        "_fontFamily": "Arial"
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "textBG",
-        "_objFlags": 0,
-        "_id": "c81cc6carxAw7b3Q8XuY45K",
-        "_position": [
-          464.3750000000002,
-          91.875
-        ],
-        "_scale": [
-          0.8,
-          0.8
-        ],
-        "_rotation": 0,
-        "_size": [
-          386,
-          189
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_texture": {
-          "__uuid__": "500e7c9d-4c53-41b2-bff2-c1edd3fae61f"
-        }
-      },
-      {
-        "__type__": "Runtime.NodeWrapper",
-        "_name": "textHolder",
-        "_objFlags": 0,
-        "_id": "05c4dv6b1pE75r2u0etwz82",
-        "_position": [
-          469.97499999999997,
-          97.93634185303505
-        ],
-        "_scale": [
-          0.8,
-          0.8
-        ],
-        "_rotation": 0,
-        "_size": [
-          0,
-          0
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0,
-          0
-        ]
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "arrow",
-        "_objFlags": 0,
-        "_id": "075c12bCDlAx7IYbLGuLFP7",
-        "_position": [
-          579.6875000000002,
-          32.8125
-        ],
-        "_scale": [
-          0.5,
-          0.5
-        ],
-        "_rotation": 0,
-        "_size": [
-          48,
-          31
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_texture": {
-          "__uuid__": "a8c2f26f-127a-4855-b09f-fcdc8c8fd8f3"
-        }
-      },
-      {
-        "__type__": "Runtime.ButtonWrapper",
-        "_name": "btn2",
-        "_objFlags": 0,
-        "_id": "f2841lSLftJX7OgVADbDGU2",
-        "_position": [
-          536.5625,
-          353.43750000000006
-        ],
-        "_scale": [
-          0.4,
-          0.4
-        ],
-        "_rotation": 0,
-        "_size": [
-          442,
-          141
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_normalTexture": {
-          "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+        {
+          "w": {
+            "__type__": "Runtime.ButtonWrapper",
+            "_name": "btn1",
+            "_objFlags": 0,
+            "_position": [
+              535.625,
+              423.75
+            ],
+            "_scale": [
+              0.4,
+              0.4
+            ],
+            "_rotation": 0,
+            "_size": [
+              442,
+              141
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_normalTexture": {
+              "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+            },
+            "_text": "进入业务房间",
+            "_fontSize": 64,
+            "_font": null,
+            "_fontFamily": "Arial"
+          }
         },
-        "_text": "在线客服",
-        "_fontSize": 64,
-        "_font": null,
-        "_fontFamily": "Arial"
-      }
-    ]
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "textBG",
+            "_objFlags": 0,
+            "_position": [
+              464.3750000000002,
+              91.875
+            ],
+            "_scale": [
+              0.8,
+              0.8
+            ],
+            "_rotation": 0,
+            "_size": [
+              386,
+              189
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_texture": {
+              "__uuid__": "500e7c9d-4c53-41b2-bff2-c1edd3fae61f"
+            }
+          }
+        },
+        {
+          "w": {
+            "__type__": "Runtime.NodeWrapper",
+            "_name": "textHolder",
+            "_objFlags": 0,
+            "_position": [
+              469.97499999999997,
+              97.93634185303505
+            ],
+            "_scale": [
+              0.8,
+              0.8
+            ],
+            "_rotation": 0,
+            "_size": [
+              0,
+              0
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "arrow",
+            "_objFlags": 0,
+            "_position": [
+              579.6875000000002,
+              32.8125
+            ],
+            "_scale": [
+              0.5,
+              0.5
+            ],
+            "_rotation": 0,
+            "_size": [
+              48,
+              31
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_texture": {
+              "__uuid__": "a8c2f26f-127a-4855-b09f-fcdc8c8fd8f3"
+            }
+          }
+        },
+        {
+          "w": {
+            "__type__": "Runtime.ButtonWrapper",
+            "_name": "btn2",
+            "_objFlags": 0,
+            "_position": [
+              536.5625,
+              353.43750000000006
+            ],
+            "_scale": [
+              0.4,
+              0.4
+            ],
+            "_rotation": 0,
+            "_size": [
+              442,
+              141
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_normalTexture": {
+              "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+            },
+            "_text": "在线客服",
+            "_fontSize": 64,
+            "_font": null,
+            "_fontFamily": "Arial"
+          }
+        }
+      ],
+      "uuid": "efa79405-04db-4b1b-9f73-e3d6833d076f"
+    }
   }
 ]

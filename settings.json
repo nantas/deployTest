@@ -1,1 +1,14 @@
-{"scenes":[{"url":"assets://reception.fire","uuid":"efa79405-04db-4b1b-9f73-e3d6833d076f"},{"url":"assets://reception2.fire","uuid":"38fa9b13-f171-4011-bfd8-05bfddb00377"}],"launchScene":"assets://reception.fire","resBundle":{}}
+{
+    "scenes": [
+        {
+            "url": "assets://reception.fire",
+            "uuid": "efa79405-04db-4b1b-9f73-e3d6833d076f"
+        },
+        {
+            "url": "assets://reception2.fire",
+            "uuid": "38fa9b13-f171-4011-bfd8-05bfddb00377"
+        }
+    ],
+    "launchScene": "assets://reception.fire",
+    "resBundle": {}
+}

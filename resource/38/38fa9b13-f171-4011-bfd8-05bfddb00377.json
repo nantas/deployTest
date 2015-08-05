@@ -10,331 +10,297 @@
   },
   {
     "__type__": "Runtime.SceneWrapper",
-    "content": [
-      {
-        "c": [
-          {
-            "w": {
-              "__id__": 1
+    "content": {
+      "c": [
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "game",
+            "_objFlags": 0,
+            "_position": [
+              359.4838063557054,
+              240
+            ],
+            "_scale": [
+              1,
+              1
+            ],
+            "_rotation": 0,
+            "_size": [
+              720,
+              480
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_texture": {
+              "__uuid__": "0670803b-58e2-48ba-8995-2e329fca0857"
+            }
+          },
+          "t": {
+            "nextRoom": "reception",
+            "figureTex1": {
+              "__uuid__": "d668a492-49bc-41df-9485-c5776a3f2392"
             },
-            "t": {
-              "nextRoom": "reception",
-              "figureTex1": {
-                "__uuid__": "d668a492-49bc-41df-9485-c5776a3f2392"
-              },
-              "figureTex2": {
-                "__uuid__": "bae710bf-26f7-44b1-8d41-086100a44f12"
-              },
-              "text1": "欢迎来到 XX 业务中心，我将为您服务",
-              "text2": "点击右上角按钮选择业务，或者返回业务大厅",
-              "text3": "带您回到接待大厅",
-              "text4": "正在办理 XX 业务"
+            "figureTex2": {
+              "__uuid__": "bae710bf-26f7-44b1-8d41-086100a44f12"
             },
-            "m": "ad796ch2mNLp43ZKnKojj64"
+            "text1": "欢迎来到 XX 业务中心，我将为您服务",
+            "text2": "点击右上角按钮选择业务，或者返回业务大厅",
+            "text3": "带您回到接待大厅",
+            "text4": "正在办理 XX 业务"
           },
-          {
-            "w": {
-              "__id__": 2
-            }
-          },
-          {
-            "w": {
-              "__id__": 3
-            }
-          },
-          {
-            "w": {
-              "__id__": 4
-            }
-          },
-          {
-            "w": {
-              "__id__": 5
-            }
-          },
-          {
-            "w": {
-              "__id__": 6
-            }
-          },
-          {
-            "w": {
-              "__id__": 7
-            }
-          },
-          {
-            "w": {
-              "__id__": 8
+          "m": "ad796ch2mNLp43ZKnKojj64"
+        },
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "figure1",
+            "_objFlags": 0,
+            "_position": [
+              190.73380635570544,
+              -2.842170943040401e-14
+            ],
+            "_scale": [
+              0.6,
+              0.6
+            ],
+            "_rotation": 0,
+            "_size": [
+              500,
+              628
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0
+            ],
+            "_texture": {
+              "__uuid__": "d668a492-49bc-41df-9485-c5776a3f2392"
             }
           }
-        ],
-        "uuid": "38fa9b13-f171-4011-bfd8-05bfddb00377"
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "game",
-        "_objFlags": 0,
-        "_id": "416dcEMzF9Dbo1I7OqfLcqX",
-        "_position": [
-          359.4838063557054,
-          240
-        ],
-        "_scale": [
-          1,
-          1
-        ],
-        "_rotation": 0,
-        "_size": [
-          720,
-          480
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_texture": {
-          "__uuid__": "0670803b-58e2-48ba-8995-2e329fca0857"
-        }
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "figure1",
-        "_objFlags": 0,
-        "_id": "004f621vIBI7Ky5OWsqMJXp",
-        "_position": [
-          190.73380635570544,
-          -2.842170943040401e-14
-        ],
-        "_scale": [
-          0.6,
-          0.6
-        ],
-        "_rotation": 0,
-        "_size": [
-          500,
-          628
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0
-        ],
-        "_texture": {
-          "__uuid__": "d668a492-49bc-41df-9485-c5776a3f2392"
-        }
-      },
-      {
-        "__type__": "Runtime.ButtonWrapper",
-        "_name": "btn1",
-        "_objFlags": 0,
-        "_id": "f7c98U5euFJVbeM8XiAQA31",
-        "_position": [
-          575.1088063557054,
-          284.86352110737363
-        ],
-        "_scale": [
-          0.4,
-          0.4
-        ],
-        "_rotation": 0,
-        "_size": [
-          442,
-          141
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_normalTexture": {
-          "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
         },
-        "_text": "回到接待大厅",
-        "_fontSize": 64,
-        "_font": null,
-        "_fontFamily": "Arial"
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "textBG",
-        "_objFlags": 0,
-        "_id": "c81cc6carxAw7b3Q8XuY45K",
-        "_position": [
-          503.8588063557056,
-          91.87499999999999
-        ],
-        "_scale": [
-          0.8,
-          0.8
-        ],
-        "_rotation": 0,
-        "_size": [
-          386,
-          189
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_texture": {
-          "__uuid__": "500e7c9d-4c53-41b2-bff2-c1edd3fae61f"
-        }
-      },
-      {
-        "__type__": "Runtime.NodeWrapper",
-        "_name": "textHolder",
-        "_objFlags": 0,
-        "_id": "05c4dv6b1pE75r2u0etwz82",
-        "_position": [
-          509.45880635570575,
-          87.39028736912651
-        ],
-        "_scale": [
-          0.8,
-          0.8
-        ],
-        "_rotation": 0,
-        "_size": [
-          0,
-          0
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0,
-          0
-        ]
-      },
-      {
-        "__type__": "Runtime.SpriteWrapper",
-        "_name": "arrow",
-        "_objFlags": 0,
-        "_id": "075c12bCDlAx7IYbLGuLFP7",
-        "_position": [
-          619.1713063557056,
-          32.812499999999986
-        ],
-        "_scale": [
-          0.5,
-          0.5
-        ],
-        "_rotation": 0,
-        "_size": [
-          48,
-          31
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_texture": {
-          "__uuid__": "a8c2f26f-127a-4855-b09f-fcdc8c8fd8f3"
-        }
-      },
-      {
-        "__type__": "Runtime.ButtonWrapper",
-        "_name": "btn2",
-        "_objFlags": 0,
-        "_id": "f2841lSLftJX7OgVADbDGU2",
-        "_position": [
-          576.0463063557054,
-          353.43750000000006
-        ],
-        "_scale": [
-          0.4,
-          0.4
-        ],
-        "_rotation": 0,
-        "_size": [
-          442,
-          141
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_normalTexture": {
-          "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+        {
+          "w": {
+            "__type__": "Runtime.ButtonWrapper",
+            "_name": "btn1",
+            "_objFlags": 0,
+            "_position": [
+              575.1088063557054,
+              284.86352110737363
+            ],
+            "_scale": [
+              0.4,
+              0.4
+            ],
+            "_rotation": 0,
+            "_size": [
+              442,
+              141
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_normalTexture": {
+              "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+            },
+            "_text": "回到接待大厅",
+            "_fontSize": 64,
+            "_font": null,
+            "_fontFamily": "Arial"
+          }
         },
-        "_text": "在线客服",
-        "_fontSize": 64,
-        "_font": null,
-        "_fontFamily": "Arial"
-      },
-      {
-        "__type__": "Runtime.ButtonWrapper",
-        "_name": "btn3",
-        "_objFlags": 0,
-        "_id": "dbfb9SxDsVM0ZBAwhl5BOhW",
-        "_position": [
-          575.7138383045871,
-          425.55910543130955
-        ],
-        "_scale": [
-          0.4,
-          0.4
-        ],
-        "_rotation": 0,
-        "_size": [
-          442,
-          141
-        ],
-        "_color": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "_anchorPoint": [
-          0.5,
-          0.5
-        ],
-        "_normalTexture": {
-          "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "textBG",
+            "_objFlags": 0,
+            "_position": [
+              503.8588063557056,
+              91.87499999999999
+            ],
+            "_scale": [
+              0.8,
+              0.8
+            ],
+            "_rotation": 0,
+            "_size": [
+              386,
+              189
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_texture": {
+              "__uuid__": "500e7c9d-4c53-41b2-bff2-c1edd3fae61f"
+            }
+          }
         },
-        "_text": "办理 XX 业务",
-        "_fontSize": 64,
-        "_font": null,
-        "_fontFamily": "Arial"
-      }
-    ]
+        {
+          "w": {
+            "__type__": "Runtime.NodeWrapper",
+            "_name": "textHolder",
+            "_objFlags": 0,
+            "_position": [
+              509.45880635570575,
+              87.39028736912651
+            ],
+            "_scale": [
+              0.8,
+              0.8
+            ],
+            "_rotation": 0,
+            "_size": [
+              0,
+              0
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "w": {
+            "__type__": "Runtime.SpriteWrapper",
+            "_name": "arrow",
+            "_objFlags": 0,
+            "_position": [
+              619.1713063557056,
+              32.812499999999986
+            ],
+            "_scale": [
+              0.5,
+              0.5
+            ],
+            "_rotation": 0,
+            "_size": [
+              48,
+              31
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_texture": {
+              "__uuid__": "a8c2f26f-127a-4855-b09f-fcdc8c8fd8f3"
+            }
+          }
+        },
+        {
+          "w": {
+            "__type__": "Runtime.ButtonWrapper",
+            "_name": "btn2",
+            "_objFlags": 0,
+            "_position": [
+              576.0463063557054,
+              353.43750000000006
+            ],
+            "_scale": [
+              0.4,
+              0.4
+            ],
+            "_rotation": 0,
+            "_size": [
+              442,
+              141
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_normalTexture": {
+              "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+            },
+            "_text": "在线客服",
+            "_fontSize": 64,
+            "_font": null,
+            "_fontFamily": "Arial"
+          }
+        },
+        {
+          "w": {
+            "__type__": "Runtime.ButtonWrapper",
+            "_name": "btn3",
+            "_objFlags": 0,
+            "_position": [
+              575.7138383045871,
+              425.55910543130955
+            ],
+            "_scale": [
+              0.4,
+              0.4
+            ],
+            "_rotation": 0,
+            "_size": [
+              442,
+              141
+            ],
+            "_color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "_anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "_normalTexture": {
+              "__uuid__": "d02b20da-031b-4b98-b2dc-3c2e7eceae6f"
+            },
+            "_text": "办理 XX 业务",
+            "_fontSize": 64,
+            "_font": null,
+            "_fontFamily": "Arial"
+          }
+        }
+      ],
+      "uuid": "38fa9b13-f171-4011-bfd8-05bfddb00377"
+    }
   }
 ]
